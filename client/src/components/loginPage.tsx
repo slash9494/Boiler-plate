@@ -65,11 +65,6 @@ function LoginPage (props:any) {
 
     }
 
-    // useEffect(()=>{
-    //     axios.get('/api/hello')
-    //     .then(response=> console.log(response.data))
-    // },[])
-
     return (
         <LoginBlock>
             <Form onSubmit={onSubmit}>
