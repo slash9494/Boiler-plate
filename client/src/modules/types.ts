@@ -4,7 +4,7 @@ import * as actions from './actions';
 export type Action = ActionType <typeof actions>;
 
 
-export type UserInfo = {
+export interface UserInfo {
     name:{
 		type:String,
 	},
@@ -29,7 +29,8 @@ export type UserInfo = {
 	},
 	tokenExp:{
 		type:Number
-	}
+	},
 }
+
 
 export type State = UserInfo[];

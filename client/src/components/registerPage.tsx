@@ -3,8 +3,6 @@ import styled from 'styled-components';
 import {useDispatch} from'react-redux';
 import { withRouter } from 'react-router-dom';
 import { registerUser } from '../modules';
-import {RegisterUserProps} from '../modules/actions'
-import { report } from 'process';
 
 const RegisterBlock = styled.div`
     display: flex;

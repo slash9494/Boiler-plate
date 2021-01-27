@@ -1,9 +1,9 @@
-import React, {useState, ChangeEvent, FormEvent, useEffect} from 'react'
+import React, {useState, ChangeEvent, FormEvent,} from 'react'
 import styled from 'styled-components'
-import axios from 'axios'
 import { useDispatch } from 'react-redux';
 import { loginUser } from '../modules/actions';
 import { withRouter } from 'react-router-dom';
+
 
 
 const LoginBlock = styled.div`
@@ -34,6 +34,8 @@ const Button = styled.button`
     &:hover{background: #495057;}
 `;
 
+
+
 function LoginPage (props:any) {
     const [inputs,setInputs] = useState({
         email:'',
@@ -51,6 +53,7 @@ function LoginPage (props:any) {
 
     const dispatch = useDispatch();
 
+    
     const onSubmit = (e:FormEvent<HTMLFormElement>) => {
         e.preventDefault();
 

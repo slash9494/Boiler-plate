@@ -3,8 +3,6 @@ import {
   BrowserRouter as Router,
   Route,
   Switch,
-  Link,
-  RouteComponentProps
 } from 'react-router-dom';
 import LandingPage from './components/LandingPage';
 import LoginPage from './components/LoginPage';

@@ -3,7 +3,7 @@ import {createReducer} from 'typesafe-actions';
 import { LOGIN_USER, REGISTER_USER, AUTH_USER } from '../actions';
 
 
-const initialState:State = [];
+export const initialState:State = []
 
 const userReducer = createReducer<State,Action>(initialState,{
     [LOGIN_USER] : (state,action) =>({
