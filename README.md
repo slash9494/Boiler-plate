@@ -1,2 +1,12 @@
-# Boiler-plate
-the first boiler-plate for sign up, sign in
+# Boiler-template
+
+# 리드미 샘플
+
+- 리드미
+- 샘플
+
+---
+
+- [x]  ㅇㅇㅇㅇ
+- [ ]  ㄴㄴㄴㄴ
+- [ ]
